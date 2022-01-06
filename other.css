@@ -1,0 +1,275 @@
+body {
+    background-color: black;
+    background-image: url(pexels-josh-sorenson-1714208.jpg);
+    background-size: 100%;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    font-display: inherit;
+    background-attachment: fixed;
+}
+
+header img {
+    float: left;
+    position: sticky;
+}
+
+hr {
+    color: cyan;
+}
+
+h1 {
+    text-align: left;
+    background-color: black;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 8px;
+}
+
+h1:hover {
+    color: cyan;
+    transition: .3s;
+}
+
+h2 {
+    text-align: center;
+    padding-left: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.intro {
+    background-image: linear-gradient(to right, black, rgba(0, 255, 255, 0.400));
+    backdrop-filter: blur(7px);
+    padding: 30px;
+    font-size: larger;
+    border-radius: 20px;
+    border-bottom: 3px solid black;
+    text-align: justify;
+}
+
+li {
+    list-style: none;
+    float: left;
+    background-color: black;
+    padding: 8px;
+    padding-right: 25px;
+    padding-left: 25px;
+    color: white;
+}
+
+li:hover {
+    background-color: transparent;
+    transition: .3s;
+    cursor: pointer;
+    backdrop-filter: blur(4px);
+    color: rgb(0, 255, 255);
+    border-bottom: 3px solid cyan;
+    border-top: 3px solid cyan;
+}
+
+nav {
+    margin: 10px;
+}
+
+#active {
+    background-color: cyan;
+    color: black;
+    ;
+}
+
+#active:hover {
+    color: none;
+    background-color: none;
+    border: none;
+}
+
+.forms {
+    width: 60%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.782), rgba(0, 255, 255, 0.207));
+    backdrop-filter: blur(50px);
+    padding: 100px;
+    padding-top: 80px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-top: 2px solid cyan;
+}
+
+.forms a {
+    color: grey;
+    font-size: larger;
+}
+
+.forms a:hover {
+    background-color: black;
+    transition: .3s;
+}
+
+.inputs {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 1.5em;
+    outline: none;
+}
+
+#buttons {
+    background-color: cyan;
+    font-size: larger;
+    border: none;
+    border-radius: 10%;
+    color: black;
+}
+
+#buttons:hover {
+    background-color: red;
+    transition: .3s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.syllabus {
+    float: none;
+    overflow: auto;
+    width: 20%;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.500);
+    backdrop-filter: blur(50px);
+}
+
+.syllabus:hover {
+    color: none;
+    background-color: none;
+    border: none;
+    border-left: 2px solid cyan;
+}
+
+footer {
+    background-color: black;
+    height: 0%;
+}
+
+.foot1 {
+    width: 13%;
+    padding-top: 20px;
+}
+
+.foot1 ul li:hover {
+    color: cyan;
+    border: none;
+    border-left: 1px solid cyan;
+    z-index: 50;
+}
+
+.foot2 {
+    width: 20%;
+    margin: auto;
+    margin-top: 45px;
+}
+
+.foot2 img {
+    border-radius: 50%;
+}
+
+.foot2 img:hover {
+    border-top: 2px solid cyan;
+    transition: .4s;
+    width: 53px;
+}
+
+.foot3 {
+    width: 7%;
+    margin: -75px 1200px;
+    cursor: pointer;
+}
+
+.foot3 img:hover {
+    width: 90px;
+    transition: .4s;
+}
+
+.foot3:hover {
+    transition: .4s;
+    color: cyan;
+    border-bottom: 1px solid cyan;
+}
+
+footer .foot4 {
+    font-size: larger;
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    padding-bottom: 15px;
+}
+
+.foot4 a {
+    color: aqua;
+    position: sticky;
+    bottom: 1px;
+}
+
+.foot4 a:hover {
+    background-image: linear-gradient(black, rgba(0, 255, 255, 0.400));
+}
+
+.authorbio {
+    background-image: linear-gradient(to right, black, rgba(0, 255, 255, 0.400));
+    backdrop-filter: blur(15px);
+    border-radius: 15%;
+    width: 75%;
+    height: 70vh;
+    margin: auto;
+    margin-top: 80px;
+    border-left: 2px solid cyan;
+    border-right: 2px solid cyan;
+}
+
+.authorbio h2 {
+    color: white;
+    background-color: black;
+    border-bottom: 5px solid cyan;
+    padding: 0%;
+    margin-top: 45px;
+    margin-bottom: 0%;
+}
+
+.authorbio img {
+    width: 130px;
+    border-radius: 8px;
+    margin-right: 750px;
+    margin-top: 50px;
+}
+
+.authorbio p {
+    font-size: 1.5rem;
+    width: 70%;
+    margin: auto;
+    margin-left: 210px;
+    margin-top: -170px;
+    text-align: justify;
+}
+
+.syllabus2 {
+    background-image: linear-gradient(to right, black, rgba(0, 255, 255, 0.400));
+    backdrop-filter: blur(7px);
+    padding: 30px;
+    font-size: larger;
+    border-radius: 20px;
+    border-left: 3px solid cyan;
+    border-right: 3px solid cyan;
+    width: 50%;
+    margin-left: 460px;
+    display: block;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+details summary {
+    list-style: none;
+}

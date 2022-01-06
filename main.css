@@ -1,0 +1,211 @@
+body {
+    height: 100%;
+    background-color: darkslategrey;
+    background-image: url(pexels-josh-sorenson-1714208.jpg);
+    background-size: 100%;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    font-display: inherit;
+    background-attachment: fixed;
+}
+
+header img {
+    width: 55px;
+    border-bottom: 1px solid cyan;
+    border-radius: 10%;
+}
+
+h1 {
+    background-color: transparent;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    backdrop-filter: blur(5px);
+    margin: 0%;
+}
+
+hr {
+    color: cyan;
+}
+
+h3 {
+    color: white;
+    font-size: x-large;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    float: left;
+    background-color: black;
+    padding: 8px;
+    padding-right: 25px;
+    padding-left: 25px;
+    color: white;
+}
+
+li:hover {
+    background-color: transparent;
+    transition: .3s;
+    cursor: pointer;
+    backdrop-filter: blur(4px);
+    color: rgb(0, 255, 255);
+    border-bottom: 3px solid cyan;
+    border-top: 3px solid cyan;
+}
+
+nav {
+    margin: auto;
+    margin-top: 0%;
+    width: 80%;
+    position: sticky;
+    top: 1px;
+}
+
+#buttons {
+    background-color: red;
+    font-size: larger;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 0px 10px;
+}
+
+#buttons:hover,
+.section1 a:hover,
+.section2 a:hover {
+    background-color: cyan;
+    transition: .2s;
+    cursor: pointer;
+    color: black;
+}
+
+.intro {
+    background-image: linear-gradient(to right, black, rgba(0, 255, 255, 0.400));
+    backdrop-filter: blur(20px);
+    padding: 30px;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    border-bottom: 3px solid black;
+}
+
+footer {
+    background-color: black;
+    height: 0%;
+}
+
+.foot1 {
+    width: 13%;
+    padding-top: 20px;
+}
+
+.foot1 ul li:hover {
+    color: cyan;
+    border: none;
+    border-left: 1px solid cyan;
+    z-index: 50;
+}
+
+.foot2 {
+    width: 20%;
+    margin: auto;
+    margin-top: 45px;
+}
+
+.foot2 img {
+    border-radius: 50%;
+}
+
+.foot2 img:hover {
+    border-top: 2px solid cyan;
+    transition: .4s;
+    width: 53px;
+}
+
+.foot3 {
+    width: 7%;
+    margin: -75px 1200px;
+    cursor: pointer;
+}
+
+.foot3 img:hover {
+    width: 90px;
+    transition: .4s;
+}
+
+.foot3:hover {
+    transition: .4s;
+    color: cyan;
+    border-bottom: 1px solid cyan;
+}
+
+footer .foot4 {
+    font-size: larger;
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    padding-bottom: 15px;
+}
+
+.foot4 a {
+    color: aqua;
+}
+
+.foot4 a:hover {
+    background-image: linear-gradient(transparent, rgba(0, 255, 255, 0.400));
+}
+
+.section1 {
+    background-color: rgba(255, 192, 203, 0.700);
+    color: white;
+    backdrop-filter: blur(2px);
+    font-size: 1.5rem;
+    padding: 30px 0px;
+}
+
+.section1 a {
+    background-color: rgb(248, 159, 174);
+    font-size: larger;
+    border: none;
+    color: black;
+    padding: 0px 10px;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.section2 {
+    background-color: rgba(81, 209, 109, 0.700);
+    color: white;
+    backdrop-filter: blur(2px);
+    font-size: 1.5rem;
+    padding: 30px 0px;
+}
+
+.section2 a {
+    background-color: lime;
+    font-size: larger;
+    border: none;
+    color: black;
+    padding: 0px 10px;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.section1:hover,
+.section2:hover {
+    background-color: #00ffff5c;
+    transition: 1s;
+    border-left: 10px solid transparent;
+}
+
+@media screen and (max-widht: 420px) {
+    h1 {
+        display: none;
+    }
+}
